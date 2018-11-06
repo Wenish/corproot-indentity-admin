@@ -11,7 +11,9 @@
     "url": "git+https://github.com/Wenish/sc-corpid.git"
   },
   "keywords": [
-    "corpid"
+    "corpid",
+    "swisscom",
+    "sc"
   ],
   "author": "Jonas Voland",
   "license": "MIT",
