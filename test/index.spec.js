@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const scCorpid = require('../src')
+const corprootIdentityAdmin = require('../src')
 
 describe('corprootIndentityAdmin', () => {
   it('should be an object', () => {
@@ -10,6 +10,6 @@ describe('corprootIndentityAdmin', () => {
     // Nothing to do
 
     // 3. Assert
-    expect(scCorpid).to.be.a(type)
+    expect(corprootIdentityAdmin).to.be.a(type)
   })
 })
