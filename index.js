@@ -1,5 +1,9 @@
 const requestPromise = require('request-promise');
 
+module.exports.getHelloWorld = () => {
+    return 'Hello World'
+}
+
 module.exports.checkToken = (endpointUrlCheckToken, clientId, clientSecret, token) => {
     const options = {
         method: 'POST',
