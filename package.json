@@ -3,8 +3,11 @@
   "version": "0.0.0-semantically-released",
   "description": "Simplified sc corpid calls for javascript",
   "main": "src/index.js",
+  "directories": {
+    "test": "src/**/*.spec.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "mocha \"src/**/*.test.js\"",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
@@ -30,7 +33,9 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "travis-deploy-once": "^5.0.9",
-    "semantic-release": "^15.10.7"
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.10.7",
+    "travis-deploy-once": "^5.0.9"
   }
 }
