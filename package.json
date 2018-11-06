@@ -13,12 +13,17 @@
   "keywords": [
     "corpid",
     "swisscom",
-    "sc"
+    "sc",
+    "cloudfoundry",
+    "auth"
   ],
   "author": "Jonas Voland",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Wenish/sc-corpid/issues"
   },
-  "homepage": "https://github.com/Wenish/sc-corpid#readme"
+  "homepage": "https://github.com/Wenish/sc-corpid#readme",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  }
 }

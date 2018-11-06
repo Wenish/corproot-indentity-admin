@@ -1,7 +1,32 @@
-module.exports.getHelloWorld = (text) => {
-    return "Hello World: " + text;
+const requestPromise = require('request-promise');
+
+module.exports.checkToken = (endpointUrlCheckToken, clientId, clientSecret, token) => {
+    const options = {
+        method: 'POST',
+        uri: endpointUrlCheckToken,
+        auth: {
+            user: clientId,
+            password: clientSecret
+        },
+        form: {
+            token
+        },
+        json: true
+    }
+    return requestPromise(options)
 }
 
-module.exports.getHelloWorld2 = (text) => {
-    return "Hello World2: " + text;
+module.exports.userinfo = (endpointUrlUserinfo, token) => {
+    const options = {
+        method: 'GET',
+        uri: endpointUrlUserinfo,
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        auth: {
+            bearer: token,
+        },
+        json: true
+    }
+    return requestPromise(options)
 }
