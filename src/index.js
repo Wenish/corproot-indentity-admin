@@ -3,7 +3,7 @@ const checkToken = require('./checkToken')
 const userinfo = require('./userinfo')
 
 module.exports = {
-    getHelloWorld,
-    checkToken,
-    userinfo,
+  getHelloWorld,
+  checkToken,
+  userinfo
 }
