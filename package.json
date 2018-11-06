@@ -1,0 +1,22 @@
+{
+  "name": "sc-corpid",
+  "version": "1.0.0",
+  "description": "Simplified sc corpid calls for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wenish/sc-corpid.git"
+  },
+  "keywords": [
+    "corpid"
+  ],
+  "author": "Jonas Voland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wenish/sc-corpid/issues"
+  },
+  "homepage": "https://github.com/Wenish/sc-corpid#readme"
+}
