@@ -1,15 +1,15 @@
 const expect = require('chai').expect
-const { checkToken } = require('../')
+const scCorpid = require('../../src')
 
-describe('checkToken', () => {
+describe('userinfo', () => {
   it('should be a function', () => {
     // 1. Arrange
     var type = 'function'
 
     // 2. Act
-    // Nothing to do
+    const userinfo = scCorpid.userinfo
 
     // 3. Assert
-    expect(checkToken).to.be.a(type)
+    expect(userinfo).to.be.a(type)
   })
 })

@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "test": "standard && mocha \"src/**/*.test.js\"",
+    "test": "standard && mocha \"test/**/*.spec.js\"",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
     "standard-fix": "standard --fix"
