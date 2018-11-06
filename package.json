@@ -1,14 +1,16 @@
 {
   "name": "sc-corpid",
-  "version": "1.2.2",
+  "version": "0.0.0-development",
   "description": "Simplified sc corpid calls for javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wenish/sc-corpid.git"
+    "url": "https://github.com/Wenish/sc-corpid.git"
   },
   "keywords": [
     "corpid",
@@ -25,5 +27,9 @@
   "homepage": "https://github.com/Wenish/sc-corpid#readme",
   "dependencies": {
     "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "travis-deploy-once": "^5.0.9",
+    "semantic-release": "^15.10.7"
   }
 }
