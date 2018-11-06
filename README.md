@@ -22,7 +22,7 @@ var scCorpid = require('sc-corpid');
 
 ## API
 
-### [.checkToken](index.js#L3)
+### [.checkToken](./src/checkToken/checkToken.js)
 
 Checks token for his validity.
 
@@ -47,7 +47,7 @@ scCorpid.checkToken('http://localhost/check_token', 'YOUR_CLIENT_ID', 'YOUR_CLIE
     }))
 ```
 
-### [.userinfo](index.js#L19)
+### [.userinfo](./src/userinfo/userinfo.js)
 
 Get userinfo from a usertoken.
 
