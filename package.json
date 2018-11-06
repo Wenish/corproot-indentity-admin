@@ -2,7 +2,7 @@
   "name": "sc-corpid",
   "version": "0.0.0-semantically-released",
   "description": "Simplified sc corpid calls for javascript",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "travis-deploy-once": "travis-deploy-once",
