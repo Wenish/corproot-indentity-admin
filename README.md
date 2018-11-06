@@ -1,6 +1,6 @@
 # sc-corpid
 
-Simplified sc corpid calls for javascript
+> Simplified sc corpid calls for javascript
 
 ## Install
 
