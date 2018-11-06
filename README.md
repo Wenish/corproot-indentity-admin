@@ -1,5 +1,5 @@
 # sc-corpid
-![NPM version](https://img.shields.io/npm/v/sc-corpid.svg?style=flat)](https://www.npmjs.com/package/sc-corpid)
+[![NPM version](https://img.shields.io/npm/v/sc-corpid.svg?style=flat)](https://www.npmjs.com/package/sc-corpid)
 
 
 > Simplified sc corpid calls for javascript
