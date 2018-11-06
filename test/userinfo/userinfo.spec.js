@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const scCorpid = require('../../src')
+const corprootIndentityAdmin = require('../../src')
 
 describe('userinfo', () => {
   it('should be a function', () => {
@@ -7,7 +7,7 @@ describe('userinfo', () => {
     var type = 'function'
 
     // 2. Act
-    const userinfo = scCorpid.userinfo
+    const userinfo = corprootIndentityAdmin.userinfo
 
     // 3. Assert
     expect(userinfo).to.be.a(type)

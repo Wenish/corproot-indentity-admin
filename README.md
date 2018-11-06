@@ -1,24 +1,24 @@
-# sc-corpid
-[![NPM version](https://img.shields.io/npm/v/sc-corpid.svg?style=flat)](https://www.npmjs.com/package/sc-corpid)
-[![Build Status](https://travis-ci.org/Wenish/sc-corpid.svg?branch=master)](https://travis-ci.org/Wenish/sc-corpid)
+# corproot-indentity-admin
+[![NPM version](https://img.shields.io/npm/v/corproot-indentity-admin.svg?style=flat)](https://www.npmjs.com/package/corproot-indentity-admin)
+[![Build Status](https://travis-ci.org/Wenish/corproot-indentity-admin.svg?branch=master)](https://travis-ci.org/Wenish/corproot-indentity-admin)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Simplified sc corpid calls for javascript.
+> Simplified Corproot Identity Service calls for javascript.
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install sc-corpid --save
+$ npm install corproot-indentity-admin --save
 ```
 
 ## Usage
 
 ```js
-var scCorpid = require('sc-corpid');
+var corprootIndentityAdmin = require('corproot-indentity-admin');
 ```
 
 ## API
@@ -38,8 +38,8 @@ Checks token for his validity.
 **Example**
 
 ```js
-const scCorpid = require('sc-corpid');
-scCorpid.checkToken('http://localhost/check_token', 'YOUR_CLIENT_ID', 'YOUR_CLIENT_SECRET', 'TOKEN_TO_VALIDATE')
+var corprootIndentityAdmin = require('corproot-indentity-admin');
+corprootIndentityAdmin.checkToken('http://localhost/check_token', 'YOUR_CLIENT_ID', 'YOUR_CLIENT_SECRET', 'TOKEN_TO_VALIDATE')
     .then((results) => {
         //check in results if token valid
     })
@@ -61,8 +61,8 @@ Get userinfo from a usertoken.
 **Example**
 
 ```js
-const scCorpid = require('sc-corpid');
-scCorpid.userinfo('http://localhost/userinfo', 'USERTOKEN')
+var corprootIndentityAdmin = require('corproot-indentity-admin');
+corprootIndentityAdmin.userinfo('http://localhost/userinfo', 'USERTOKEN')
     .then((results) => {
         //check results for userinfo
     })

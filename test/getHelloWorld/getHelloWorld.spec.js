@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const scCorpid = require('../../src')
+const corprootIndentityAdmin = require('../../src')
 
 describe('getHelloWorld()', () => {
   it('should return "Hello World"', () => {
@@ -7,7 +7,7 @@ describe('getHelloWorld()', () => {
     var text1 = 'Hello World'
 
     // 2. Act
-    const text2 = scCorpid.getHelloWorld()
+    const text2 = corprootIndentityAdmin.getHelloWorld()
 
     // 3. Assert
     expect(text2).to.be.equal(text1)

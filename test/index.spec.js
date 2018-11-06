@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 const scCorpid = require('../src')
 
-describe('scCorpid', () => {
+describe('corprootIndentityAdmin', () => {
   it('should be an object', () => {
     // 1. Arrange
     var type = 'object'
