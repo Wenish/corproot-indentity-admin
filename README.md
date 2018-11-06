@@ -31,12 +31,35 @@ Checks token for his validity.
 **Example**
 
 ```js
-var scCorpid = require('sc-corpid');
+const scCorpid = require('sc-corpid');
 scCorpid.checkToken('http://localhost/check_token', 'YOUR_CLIENT_ID', 'YOUR_CLIENT_SECRET', 'TOKEN_TO_VALIDATE')
     .then((results) => {
         //check in results if token valid
     })
     .catch((error => {
         //token not valid
+    }))
+```
+
+### [.userinfo](index.js#L19)
+
+Get userinfo from a usertoken.
+
+**Params**
+
+* `endpointUrlUserinfo` **{String}**: url endpoint.
+* `token` **{String}**: usertoken.
+* `returns` **{Promise}**
+
+**Example**
+
+```js
+const scCorpid = require('sc-corpid');
+scCorpid.userinfo('http://localhost/userinfo', 'USERTOKEN')
+    .then((results) => {
+        //check results for userinfo
+    })
+    .catch((error => {
+        //userinfo not found
     }))
 ```
