@@ -1,5 +1,7 @@
 # sc-corpid
 
+Simplified sc corpid calls for javascript
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
