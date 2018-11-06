@@ -1,6 +1,6 @@
 {
   "name": "sc-corpid",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "Simplified sc corpid calls for javascript",
   "main": "index.js",
   "scripts": {
