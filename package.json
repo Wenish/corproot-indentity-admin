@@ -19,7 +19,9 @@
     "url": "https://github.com/Wenish/corproot-indentity-admin.git"
   },
   "keywords": [
-    "corpid",
+    "corproot",
+    "indentity",
+    "admin",
     "swisscom",
     "sc",
     "cloudfoundry",
