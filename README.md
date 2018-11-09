@@ -66,7 +66,7 @@ Get userinfo from a usertoken.
 **Example**
 
 ```js
-var corprootIdentityAdmin = require('corproot-indentity-admin');
+var corprootIdentityAdmin = require('corproot-identity-admin');
 corprootIdentityAdmin.userinfo(
     'http://localhost/userinfo',
     'USERTOKEN'
