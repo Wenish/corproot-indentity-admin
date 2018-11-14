@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const corprootIdentityAdmin = require('../../src')
+const cloudfoundryIdentityAdmin = require('../../src')
 
 describe('userinfo', () => {
   it('should be a function', () => {
@@ -7,7 +7,7 @@ describe('userinfo', () => {
     var type = 'function'
 
     // 2. Act
-    const userinfo = corprootIdentityAdmin.userinfo
+    const userinfo = cloudfoundryIdentityAdmin.userinfo
 
     // 3. Assert
     expect(userinfo).to.be.a(type)

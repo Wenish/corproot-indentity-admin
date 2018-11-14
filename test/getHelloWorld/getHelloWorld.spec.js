@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const corprootIdentityAdmin = require('../../src')
+const cloudfoundryIdentityAdmin = require('../../src')
 
 describe('getHelloWorld()', () => {
   it('should return "Hello World"', () => {
@@ -7,7 +7,7 @@ describe('getHelloWorld()', () => {
     var text1 = 'Hello World'
 
     // 2. Act
-    const text2 = corprootIdentityAdmin.getHelloWorld()
+    const text2 = cloudfoundryIdentityAdmin.getHelloWorld()
 
     // 3. Assert
     expect(text2).to.be.equal(text1)

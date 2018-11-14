@@ -1,24 +1,24 @@
-# corproot-identity-admin
-[![NPM version](https://img.shields.io/npm/v/corproot-identity-admin.svg?style=flat)](https://www.npmjs.com/package/corproot-identity-admin)
-[![Build Status](https://travis-ci.org/Wenish/corproot-identity-admin.svg?branch=master)](https://travis-ci.org/Wenish/corproot-identity-admin)
+# cloudfoundry-identity-admin
+[![NPM version](https://img.shields.io/npm/v/cloudfoundry-identity-admin.svg?style=flat)](https://www.npmjs.com/package/cloudfoundry-identity-admin)
+[![Build Status](https://travis-ci.org/Swisscom/cloudfoundry-identity-admin.svg?branch=master)](https://travis-ci.org/Swisscom/cloudfoundry-identity-admin)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Simplified Corproot Identity Service calls for javascript.
+> Simplified Cloudfoundry Identity Service calls for javascript.
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install corproot-identity-admin --save
+$ npm install cloudfoundry-identity-admin --save
 ```
 
 ## Usage
 
 ```js
-var corprootIdentityAdmin = require('corproot-identity-admin');
+var cloudfoundryIdentityAdmin = require('cloudfoundry-identity-admin');
 ```
 
 ## API
@@ -38,8 +38,8 @@ Checks token for his validity.
 **Example**
 
 ```js
-var corprootIdentityAdmin = require('corproot-identity-admin');
-corprootIdentityAdmin.checkToken(
+var cloudfoundryIdentityAdmin = require('cloudfoundry-identity-admin');
+cloudfoundryIdentityAdmin.checkToken(
     'http://localhost/check_token',
     'YOUR_CLIENT_ID',
     'YOUR_CLIENT_SECRET',
@@ -66,8 +66,8 @@ Get userinfo from a usertoken.
 **Example**
 
 ```js
-var corprootIdentityAdmin = require('corproot-identity-admin');
-corprootIdentityAdmin.userinfo(
+var cloudfoundryIdentityAdmin = require('cloudfoundry-identity-admin');
+cloudfoundryIdentityAdmin.userinfo(
     'http://localhost/userinfo',
     'USERTOKEN'
     )

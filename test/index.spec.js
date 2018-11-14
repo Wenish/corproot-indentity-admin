@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const corprootIdentityAdmin = require('../src')
+const cloudfoundryIdentityAdmin = require('../src')
 
 describe('corprootIndentityAdmin', () => {
   it('should be an object', () => {
@@ -10,6 +10,6 @@ describe('corprootIndentityAdmin', () => {
     // Nothing to do
 
     // 3. Assert
-    expect(corprootIdentityAdmin).to.be.a(type)
+    expect(cloudfoundryIdentityAdmin).to.be.a(type)
   })
 })
