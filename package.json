@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Swisscom/cloudfoundry-identity-admin.git"
+    "url": "https://github.com/swisscom/cloudfoundry-identity-admin.git"
   },
   "keywords": [
     "corproot",
@@ -30,9 +30,9 @@
   "author": "Jonas Voland",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Swisscom/cloudfoundry-identity-admin/issues"
+    "url": "https://github.com/swisscom/cloudfoundry-identity-admin/issues"
   },
-  "homepage": "https://github.com/Swisscom/cloudfoundry-identity-admin#readme",
+  "homepage": "https://github.com/swisscom/cloudfoundry-identity-admin#readme",
   "dependencies": {
     "request": "^2.88.0",
     "request-promise": "^4.2.2"

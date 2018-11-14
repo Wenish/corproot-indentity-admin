@@ -1,6 +1,6 @@
 # cloudfoundry-identity-admin
 [![NPM version](https://img.shields.io/npm/v/cloudfoundry-identity-admin.svg?style=flat)](https://www.npmjs.com/package/cloudfoundry-identity-admin)
-[![Build Status](https://travis-ci.org/Swisscom/cloudfoundry-identity-admin.svg?branch=master)](https://travis-ci.org/Swisscom/cloudfoundry-identity-admin)
+[![Build Status](https://travis-ci.org/swisscom/cloudfoundry-identity-admin.svg?branch=master)](https://travis-ci.org/swisscom/cloudfoundry-identity-admin)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
